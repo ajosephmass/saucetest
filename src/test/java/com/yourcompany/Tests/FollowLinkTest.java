@@ -37,10 +37,10 @@ public class FollowLinkTest extends TestBase {
         //driver.get("http://www.google.com");
         driver.get("https://www.massmutual.com/myaccount/rl/Login/login?type=Customer");
         driver.findElement(By.id("user-name")).click();
-        /*driver.findElement(By.id("user-name")).clear();
+        driver.findElement(By.id("user-name")).clear();
         driver.findElement(By.id("user-name")).sendKeys("abcd");
         driver.findElement(By.xpath("//div[@id='continue-button']/input")).click();
-        GuineaPigPage page = GuineaPigPage.visitPage(driver);
+        /*GuineaPigPage page = GuineaPigPage.visitPage(driver);
 
         page.followLink();
         */
