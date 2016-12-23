@@ -28,8 +28,8 @@ public class FollowLinkTest extends TestBase {
         /*GuineaPigPage page = GuineaPigPage.visitPage(driver);
 
         page.followLink();
-
-        assertFalse(page.isOnPage());
         */
+        assertFalse(page.isOnPage());
+       
     }
 }
