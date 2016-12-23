@@ -19,6 +19,7 @@ public class FollowLinkTest extends TestBase {
      */
     @Test
     public void verifyLinkTest() throws InvalidElementStateException {
+        driver.get("http://www.google.com");
         GuineaPigPage page = GuineaPigPage.visitPage(driver);
 
         page.followLink();
