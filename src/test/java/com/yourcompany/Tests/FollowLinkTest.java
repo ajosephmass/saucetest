@@ -40,6 +40,7 @@ public class FollowLinkTest extends TestBase {
         driver.findElement(By.id("user-name")).clear();
         driver.findElement(By.id("user-name")).sendKeys("abcd");
         driver.findElement(By.xpath("//div[@id='continue-button']/input")).click();
+        Thread.sleep(5000);
         
        
     }
